@@ -1,0 +1,1 @@
+cmd_/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE2/Data/lbsdata.idx := rm -rf "/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE2/Data/lbsdata.idx" && cp -af "/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE-MacOSX-x64-2.2/Redist/NiTE2/Data/lbsdata.idx" "/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE2/Data/lbsdata.idx"

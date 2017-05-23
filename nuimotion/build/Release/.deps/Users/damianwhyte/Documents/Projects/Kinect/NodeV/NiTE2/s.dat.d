@@ -1,0 +1,1 @@
+cmd_/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE2/s.dat := rm -rf "/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE2/s.dat" && cp -af "/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE-MacOSX-x64-2.2/Redist/NiTE2/s.dat" "/Users/damianwhyte/Documents/Projects/Kinect/NodeV/NiTE2/s.dat"

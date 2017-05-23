@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -12,6 +13,7 @@
 
 <div class="container">
   <h2>Carousel Example</h2>
+  <h2 class="indicator col-md-9"></h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -24,7 +26,19 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="http://www.hdwallpapers.in/walls/1080p_digital_universe_hd-HD.jpg" alt="Los Angeles" style="width:100%;">
+
+        <div class="space3d">
+            
+          <div class="_3dbox">
+            <div class="_3dface _3dface--front"></div>
+            <div class="_3dface _3dface--top"></div>
+            <div class="_3dface _3dface--bottom"></div>
+            <div class="_3dface _3dface--left"></div>
+            <div class="_3dface _3dface--right"></div>
+            <div class="_3dface _3dface--back"></div>
+          </div>   
+        </div>
+        <!-- <img src="http://www.hdwallpapers.in/walls/1080p_digital_universe_hd-HD.jpg" alt="Los Angeles" style="width:100%;"> -->
         <div class="carousel-caption">
           <h3>Los Angeles</h3>
           <p>LA is always so much fun!</p>

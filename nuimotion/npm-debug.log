@@ -1,0 +1,221 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/damianwhyte/.nvm/v0.10.24/bin/node',
+1 verbose cli   '/Users/damianwhyte/.nvm/v0.10.24/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'canvas',
+1 verbose cli   'v0.1' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'canvas', null ]
+6 verbose cache add name=undefined spec="canvas" args=["canvas",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'canvas',
+7 verbose parsed url   path: 'canvas',
+7 verbose parsed url   href: 'canvas' }
+8 verbose cache add [ 'v0.1', null ]
+9 verbose cache add name=undefined spec="v0.1" args=["v0.1",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'v0.1',
+10 verbose parsed url   path: 'v0.1',
+10 verbose parsed url   href: 'v0.1' }
+11 silly lockFile 7aa15835-canvas canvas
+12 verbose lock canvas /Users/damianwhyte/.npm/7aa15835-canvas.lock
+13 silly lockFile eaa20f06-v0-1 v0.1
+14 verbose lock v0.1 /Users/damianwhyte/.npm/eaa20f06-v0-1.lock
+15 silly lockFile 7aa15835-canvas canvas
+16 silly lockFile 7aa15835-canvas canvas
+17 silly lockFile eaa20f06-v0-1 v0.1
+18 silly lockFile eaa20f06-v0-1 v0.1
+19 verbose addNamed [ 'canvas', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 7328b956-canvas canvas@
+22 verbose lock canvas@ /Users/damianwhyte/.npm/7328b956-canvas.lock
+23 verbose addNamed [ 'v0.1', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 5570242c-v0-1 v0.1@
+26 verbose lock v0.1@ /Users/damianwhyte/.npm/5570242c-v0-1.lock
+27 silly addNameRange { name: 'canvas', range: '*', hasData: false }
+28 silly addNameRange { name: 'v0.1', range: '*', hasData: false }
+29 verbose url raw v0.1
+30 verbose url resolving [ 'https://registry.npmjs.org/', './v0.1' ]
+31 verbose url resolved https://registry.npmjs.org/v0.1
+32 info trying registry request attempt 1 at 17:31:50
+33 http GET https://registry.npmjs.org/v0.1
+34 verbose url raw canvas
+35 verbose url resolving [ 'https://registry.npmjs.org/', './canvas' ]
+36 verbose url resolved https://registry.npmjs.org/canvas
+37 info trying registry request attempt 1 at 17:31:50
+38 verbose etag "59122765-20d6e"
+39 http GET https://registry.npmjs.org/canvas
+40 http 304 https://registry.npmjs.org/canvas
+41 silly registry.get cb [ 304,
+41 silly registry.get   { date: 'Tue, 23 May 2017 16:31:50 GMT',
+41 silly registry.get     via: '1.1 varnish',
+41 silly registry.get     'cache-control': 'max-age=300',
+41 silly registry.get     etag: '"59122765-20d6e"',
+41 silly registry.get     age: '0',
+41 silly registry.get     connection: 'keep-alive',
+41 silly registry.get     'x-served-by': 'cache-lcy1123-LCY',
+41 silly registry.get     'x-cache': 'HIT',
+41 silly registry.get     'x-cache-hits': '1',
+41 silly registry.get     'x-timer': 'S1495557111.644852,VS0,VE151',
+41 silly registry.get     vary: 'Accept-Encoding' } ]
+42 verbose etag canvas from cache
+43 silly addNameRange number 2 { name: 'canvas', range: '*', hasData: true }
+44 silly addNameRange versions [ 'canvas',
+44 silly addNameRange   [ '0.0.1',
+44 silly addNameRange     '0.0.2',
+44 silly addNameRange     '0.0.3',
+44 silly addNameRange     '0.0.4',
+44 silly addNameRange     '0.0.5',
+44 silly addNameRange     '0.0.6',
+44 silly addNameRange     '0.0.7',
+44 silly addNameRange     '0.0.8',
+44 silly addNameRange     '0.1.0',
+44 silly addNameRange     '0.2.0',
+44 silly addNameRange     '0.2.1',
+44 silly addNameRange     '0.3.0',
+44 silly addNameRange     '0.3.1',
+44 silly addNameRange     '0.3.2',
+44 silly addNameRange     '0.3.3',
+44 silly addNameRange     '0.4.0',
+44 silly addNameRange     '0.4.1',
+44 silly addNameRange     '0.4.2',
+44 silly addNameRange     '0.4.3',
+44 silly addNameRange     '0.5.0',
+44 silly addNameRange     '0.5.1',
+44 silly addNameRange     '0.5.2',
+44 silly addNameRange     '0.5.3',
+44 silly addNameRange     '0.5.4',
+44 silly addNameRange     '0.6.0',
+44 silly addNameRange     '0.7.0',
+44 silly addNameRange     '0.7.1',
+44 silly addNameRange     '0.7.2',
+44 silly addNameRange     '0.7.3',
+44 silly addNameRange     '0.8.0',
+44 silly addNameRange     '0.8.1',
+44 silly addNameRange     '0.8.2',
+44 silly addNameRange     '0.8.3',
+44 silly addNameRange     '0.9.0',
+44 silly addNameRange     '0.10.0',
+44 silly addNameRange     '0.10.1',
+44 silly addNameRange     '0.10.2',
+44 silly addNameRange     '0.10.3',
+44 silly addNameRange     '0.11.0',
+44 silly addNameRange     '0.11.1',
+44 silly addNameRange     '0.11.2',
+44 silly addNameRange     '0.11.3',
+44 silly addNameRange     '0.12.0',
+44 silly addNameRange     '0.12.1',
+44 silly addNameRange     '0.13.0',
+44 silly addNameRange     '0.13.1',
+44 silly addNameRange     '1.0.0',
+44 silly addNameRange     '1.0.1',
+44 silly addNameRange     '1.0.2',
+44 silly addNameRange     '1.0.3',
+44 silly addNameRange     '1.0.4',
+44 silly addNameRange     '1.1.0',
+44 silly addNameRange     '1.1.1',
+44 silly addNameRange     '1.1.2',
+44 silly addNameRange     '1.1.3',
+44 silly addNameRange     '1.1.4',
+44 silly addNameRange     '1.1.5',
+44 silly addNameRange     '1.1.6',
+44 silly addNameRange     '1.2.0',
+44 silly addNameRange     '1.2.1',
+44 silly addNameRange     '1.2.2',
+44 silly addNameRange     '1.2.3',
+44 silly addNameRange     '1.2.4',
+44 silly addNameRange     '1.2.5',
+44 silly addNameRange     '1.2.6',
+44 silly addNameRange     '1.2.7',
+44 silly addNameRange     '1.2.8',
+44 silly addNameRange     '1.2.9',
+44 silly addNameRange     '1.2.10',
+44 silly addNameRange     '1.2.11',
+44 silly addNameRange     '1.3.0',
+44 silly addNameRange     '1.3.1',
+44 silly addNameRange     '1.3.2',
+44 silly addNameRange     '1.3.3',
+44 silly addNameRange     '1.3.4',
+44 silly addNameRange     '1.3.5',
+44 silly addNameRange     '1.3.6',
+44 silly addNameRange     '1.3.7',
+44 silly addNameRange     '1.3.8',
+44 silly addNameRange     '1.3.9',
+44 silly addNameRange     '1.3.10',
+44 silly addNameRange     '1.3.11',
+44 silly addNameRange     '1.3.12',
+44 silly addNameRange     '1.3.13',
+44 silly addNameRange     '1.3.14',
+44 silly addNameRange     '1.3.15',
+44 silly addNameRange     '1.3.16',
+44 silly addNameRange     '1.4.0',
+44 silly addNameRange     '1.5.0',
+44 silly addNameRange     '1.6.0',
+44 silly addNameRange     '1.6.1',
+44 silly addNameRange     '1.6.2',
+44 silly addNameRange     '1.6.3',
+44 silly addNameRange     '1.6.4',
+44 silly addNameRange     '1.6.5',
+44 silly addNameRange     '2.0.0-alpha.1',
+44 silly addNameRange     '2.0.0-alpha.2' ] ]
+45 verbose addNamed [ 'canvas', '1.6.5' ]
+46 verbose addNamed [ '1.6.5', '1.6.5' ]
+47 silly lockFile 9eef7d2a-canvas-1-6-5 canvas@1.6.5
+48 verbose lock canvas@1.6.5 /Users/damianwhyte/.npm/9eef7d2a-canvas-1-6-5.lock
+49 silly lockFile 9eef7d2a-canvas-1-6-5 canvas@1.6.5
+50 silly lockFile 9eef7d2a-canvas-1-6-5 canvas@1.6.5
+51 silly lockFile 7328b956-canvas canvas@
+52 silly lockFile 7328b956-canvas canvas@
+53 http 404 https://registry.npmjs.org/v0.1
+54 silly registry.get cb [ 404,
+54 silly registry.get   { 'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=0',
+54 silly registry.get     'content-length': '2',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     date: 'Tue, 23 May 2017 16:31:51 GMT',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '0',
+54 silly registry.get     connection: 'keep-alive',
+54 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+54 silly registry.get     'x-cache': 'MISS',
+54 silly registry.get     'x-cache-hits': '0',
+54 silly registry.get     'x-timer': 'S1495557111.641435,VS0,VE562',
+54 silly registry.get     vary: 'Accept-Encoding' } ]
+55 silly addNameRange number 2 { name: 'v0.1', range: '*', hasData: true }
+56 silly addNameRange versions [ undefined, [] ]
+57 error TypeError: Cannot read property 'latest' of undefined
+57 error     at next (/Users/damianwhyte/.nvm/v0.10.24/lib/node_modules/npm/lib/cache.js:688:35)
+57 error     at /Users/damianwhyte/.nvm/v0.10.24/lib/node_modules/npm/lib/cache.js:676:5
+57 error     at saved (/Users/damianwhyte/.nvm/v0.10.24/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+57 error     at /Users/damianwhyte/.nvm/v0.10.24/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+57 error     at Object.oncomplete (fs.js:107:15)
+58 error If you need help, you may report this *entire* log,
+58 error including the npm and node versions, at:
+58 error     <http://github.com/isaacs/npm/issues>
+59 error System Darwin 16.5.0
+60 error command "/Users/damianwhyte/.nvm/v0.10.24/bin/node" "/Users/damianwhyte/.nvm/v0.10.24/bin/npm" "install" "--save" "canvas" "v0.1"
+61 error cwd /Users/damianwhyte/Documents/Projects/Kinect/NodeV/prototype-nuimotion/nuimotion
+62 error node -v v0.10.24
+63 error npm -v 1.3.21
+64 error type non_object_property_load
+65 verbose exit [ 1, true ]
